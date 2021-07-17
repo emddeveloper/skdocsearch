@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/skdocsearch",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

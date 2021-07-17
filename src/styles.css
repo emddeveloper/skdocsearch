@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  padding-top: 100px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: rgb(10, 10, 10) !important;
+}

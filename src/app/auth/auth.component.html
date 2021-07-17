@@ -1,0 +1,13 @@
+<form
+  class="login"
+  #authFormData="ngForm"
+  (ngSubmit)="onAuthFormSubmit(authFormData)"
+>
+  <h4>{{ isLogin ? "Login " : "Signup " }}Here</h4>
+  <input type="email" placeholder="Email" ngModel name="email" />
+  <input type="password" placeholder="Password" ngModel name="password" />
+  <a (click)="authToggle()" class="logintoggle">{{
+    isLogin ? "Don't have account?" : "Login Here"
+  }}</a>
+  <button type="submit">{{ isLogin ? "Login " : "Signup " }}</button>
+</form>
